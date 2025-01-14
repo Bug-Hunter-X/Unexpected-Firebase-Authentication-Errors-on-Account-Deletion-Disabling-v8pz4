@@ -1,0 +1,1 @@
+This repository demonstrates a potential race condition in the Firebase Authentication SDK. If a user's account is deleted or disabled during the authentication process, the SDK may throw an unclear error. This example shows how to mitigate the issue by adding robust error handling and checking the user's status after authentication completes.
